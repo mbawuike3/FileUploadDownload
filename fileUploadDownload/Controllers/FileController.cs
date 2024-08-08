@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using fileUploadDownload.DAL;
+using fileUploadDownload.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.StaticFiles;
 
 namespace fileUploadDownload.Controllers
@@ -7,6 +9,13 @@ namespace fileUploadDownload.Controllers
     [ApiController]
     public class FileController : ControllerBase
     {
+        private readonly FileUploadDbContext _db;
+
+        public FileController(FileUploadDbContext db)
+        {
+            _db = db;
+        }
+
         [HttpPost]
         [Route("UploadFile")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -14,6 +23,18 @@ namespace fileUploadDownload.Controllers
         public async Task<IActionResult> UploadFile(IFormFile file, CancellationToken cancellationToken)
         {
             var result = await WriteFile(file);
+            if(string.IsNullOrEmpty(result))
+            {
+                return BadRequest("Error uploading file");
+            }
+            var fileUrl = Url.Content($"~/Upload/Files/{result}");
+            var fileRecord = new FileUpload
+            {
+                FileName = result,
+                FileUrl = fileUrl,
+            };
+            _db.FileUploads.Add(fileRecord);
+            await _db.SaveChangesAsync();
             return Ok(result);
         }
         private async Task<string> WriteFile(IFormFile file)

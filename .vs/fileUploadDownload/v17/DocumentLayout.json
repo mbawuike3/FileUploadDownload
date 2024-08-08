@@ -7,12 +7,11 @@
       "RelativeMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|solutionrelative:fileuploaddownload\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|c:\\users\\mbawu\\unitofwork\\unitofworkproject\\fileuploaddownload\\fileuploaddownload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|solutionrelative:fileuploaddownload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mbawu\\AppData\\Local\\SourceServer\\cc9a53dbec0d4ad8c9a053e1cbd339f281079f3c3bce374d7d8c27fc849841de\\fileUploadDownload\\Controllers\\FileController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|c:\\users\\mbawu\\unitofwork\\unitofworkproject\\fileuploaddownload\\fileuploaddownload\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|solutionrelative:fileuploaddownload\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|c:\\users\\mbawu\\unitofwork\\unitofworkproject\\fileuploaddownload\\fileuploaddownload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF9C758-4EF4-48D2-9671-BEEFC8CB6EC1}|fileUploadDownload\\fileUploadDownload.csproj|solutionrelative:fileuploaddownload\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,26 +121,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\fileUploadDownload\\fileUploadDownload\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "fileUploadDownload\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\fileUploadDownload\\fileUploadDownload\\WeatherForecast.cs",
-              "RelativeToolTip": "fileUploadDownload\\WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\Users\\mbawu\\AppData\\Local\\SourceServer\\cc9a53dbec0d4ad8c9a053e1cbd339f281079f3c3bce374d7d8c27fc849841de\\fileUploadDownload\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\cc9a53dbec0d4ad8c9a053e1cbd339f281079f3c3bce374d7d8c27fc849841de\\fileUploadDownload\\Controllers\\FileController.cs",
+              "ToolTip": "C:\\Users\\mbawu\\AppData\\Local\\SourceServer\\cc9a53dbec0d4ad8c9a053e1cbd339f281079f3c3bce374d7d8c27fc849841de\\fileUploadDownload\\Controllers\\FileController.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\cc9a53dbec0d4ad8c9a053e1cbd339f281079f3c3bce374d7d8c27fc849841de\\fileUploadDownload\\Controllers\\FileController.cs [Read Only]",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwBgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:31:14.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:20:25.471Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\fileUploadDownload\\fileUploadDownload\\Program.cs",
               "RelativeDocumentMoniker": "fileUploadDownload\\Program.cs",
               "ToolTip": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\fileUploadDownload\\fileUploadDownload\\Program.cs",
               "RelativeToolTip": "fileUploadDownload\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T21:31:12.324Z",
               "EditorCaption": ""
@@ -154,7 +153,7 @@
               "RelativeDocumentMoniker": "fileUploadDownload\\Controllers\\FileController.cs",
               "ToolTip": "C:\\Users\\mbawu\\UnitOfWork\\UnitOfWorkProject\\fileUploadDownload\\fileUploadDownload\\Controllers\\FileController.cs",
               "RelativeToolTip": "fileUploadDownload\\Controllers\\FileController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T21:18:02.804Z",
               "EditorCaption": ""
