@@ -1,6 +1,51 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Ignore node_modules directory
+node_modules/
 
-/fileUploadDownload/Upload/Files/638587533298980058.pdf
-/fileUploadDownload/Upload/Files/638587537369945148.pdf
+# Ignore all log files
+*.log
+
+# Ignore all compiled files
+*.dll
+*.exe
+
+# Ignore directories and files for macOS
+.DS_Store
+
+# Ignore environment files
+.env
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore build output
+/bin/
+/obj/
+
+# Ignore your local uploads directory
+Upload/Files/
+# Visual Studio Code
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Logs
+*.log
